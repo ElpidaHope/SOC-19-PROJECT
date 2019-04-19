@@ -42,7 +42,7 @@ data = pd.DataFrame({'Items': new_item, 'Unit': new_unit, 'Price(#)': new_price}
 data.to_csv(os.getcwd() + '/Customer.csv', index=False)
 
 
-# sending the details to the user using smtplib
+# sending the details to the customer's mail using smtplib
 customer_name = input('Enter the name of seller').upper()
 msg_subject = 'SALES INVENTORY OF {}'.format(customer_name)
 msg_body = 'The total price of items sold today, {} is #{}'.format(date_, price_unit) + \
