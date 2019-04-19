@@ -28,7 +28,7 @@ while count < num:
     item_ = input("Enter the item:")
     unit = int(input('Enter unit of item sold:'))
     price = int(input('Enter the price of item:'))
-    print('-'*30)             # this is to divide the input of the user
+    print('-'*30)             # this is to indicate the different input of the user
     count += 1
     price_unit_ = unit * price
     price_unit += price_unit_
