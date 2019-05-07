@@ -9,7 +9,6 @@ import pandas as pd
 import datetime
 import os
 
-
 # creating today's date
 date = datetime.datetime.now()
 date_ = date.strftime('%A,%d %B,%Y')
