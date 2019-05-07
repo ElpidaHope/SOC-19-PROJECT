@@ -54,8 +54,8 @@ your_password = input('Enter your password')
 msg = MIMEMultipart()
 msg['To'] = recipient
 msg['From'] = your_mail
-msg['Body'] = msg_body
 msg['Subject'] = msg_subject
+msg['Body'] = msg_body
 body = msg_body
 msg.attach(MIMEText(body, 'plain'))
 
